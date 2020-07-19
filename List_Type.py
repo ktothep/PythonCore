@@ -35,3 +35,17 @@ print(list_deep)
 list.remove("Five")
 print("Second iteration after deletion")
 print(list_deep)
+
+#Other List Methods
+list_ex=[1,2,3]
+list_ex2=[4,5,6]
+list_ex3=[7,8,9]
+list_ex4=[10,11,12]
+#Adds the list
+list_ex.append(list_ex2)
+print(list_ex)
+#Adds the element
+list_ex3.extend(list_ex4)
+print(list_ex3)
+
+
